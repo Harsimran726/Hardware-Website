@@ -6,7 +6,7 @@ set -e
 PROJECT_DIR="project"
 
 # Activate virtual environment (if used)
-source my_env/bin/activate
+source my_env/Scripts/activate
 
 cd "project"
 
