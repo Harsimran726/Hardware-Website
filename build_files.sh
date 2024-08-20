@@ -5,11 +5,14 @@ set -e
 # Replace with your project path
 PROJECT_DIR="project"
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Activate virtual environment (if used)
+source my_env/Scripts/activate  # Windows
+# source my_env/bin/activate     # macOS/Linux
 
-cd "project"
-#pip install -r requirements.txt
-
+cd "$PROJECT_DIR"
 
 python3 manage.py collectstatic --noinput
 
