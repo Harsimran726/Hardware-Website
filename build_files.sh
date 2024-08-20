@@ -1,6 +1,15 @@
-# Inserting code to deploy Django using virtual environment on Vercel
+#!/bin/bash
+
+set -e
+
+# Replace with your project path
+PROJECT_DIR="/project"
+
+# Activate virtual environment (if used)
 source my_env/Scripts/activate
-# pip install -r requirements.txt
 
+cd "$PROJECT_DIR"
 
+python manage.py collectstatic --noinput
 
+echo "Static files collected successfully!"
