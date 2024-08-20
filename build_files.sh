@@ -9,7 +9,7 @@ source my_env/bin/activate
 # Install dependencies
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-
+sudo apt install libsqlite3-dev
 
 # Activate virtual environment (if used)
 # Windows
