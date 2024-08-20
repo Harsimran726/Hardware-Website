@@ -10,6 +10,7 @@ source my_env/Scripts/activate
 
 cd "project"
 
-python manage.py collectstatic --noinput
+
+python3 manage.py collectstatic --noinput
 
 echo "Static files collected successfully!"
