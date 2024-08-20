@@ -4,7 +4,8 @@ set -e
 
 # Replace with your project path
 PROJECT_DIR="project"
-
+python3 -m venv my_env
+source venv/bin/activate
 # Install dependencies
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
