@@ -8,7 +8,7 @@ PROJECT_DIR="project"
 # Activate virtual environment (if used)
 
 cd "project"
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 
 python3 manage.py collectstatic --noinput
