@@ -6,7 +6,7 @@ set -e
 PROJECT_DIR="project"
 
 # Install dependencies
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 # Activate virtual environment (if used)
 source my_env/Scripts/activate  # Windows
