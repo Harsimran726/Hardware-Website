@@ -4,6 +4,7 @@ set -e
 
 # Replace with your project path
 PROJECT_DIR="project"
+apt-get update && apt-get install -y sqlite3 libsqlite3-dev
 
 # Install dependencies
 python3 -m pip install --upgrade pip
